@@ -1,0 +1,243 @@
+
+body{
+	font-size: 15px/1.5 Arial, Helvetica,sans-serif; 
+	margin:0;
+	background-color: #f4f4f4;
+	padding: 70px 70px 70px 70px;
+}
+
+/* Main Class*/
+.menu{
+     width: 80%;
+     margin: auto;
+	overflow: hidden;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+	
+}
+
+header{
+	background:url('../img/index3.jpg');
+	color:  #ffffff;
+	padding: 16px;
+	min-height: 50px;
+	border: #e8491d 2px solid;
+}
+
+header a{
+	color:  #ffffff;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+header li{
+ 	float: left;
+ 	display: inline;
+ 	padding: 0 10px 0 10px;
+}
+
+ header #name{
+	text-align: center;
+	background-color: #35424a; 
+}
+
+header #name{
+	margin: 10px ;
+}
+
+header #image{
+	float: left;
+	margin-bottom: 20px;
+	padding: 0px;
+       border: #690747 2px solid;
+}
+
+header nav{
+	float: left;
+	margin: 10px;
+}
+
+header .highlight {
+        color: #ffffff;
+	font-weight: bold;
+}
+
+header nav{
+	float: right;
+	margin: 10px;
+	padding-top: 60px;
+}
+header a{
+      background-color:red;
+      box-shadow:0 5px 0 darkred;
+
+}
+
+  header a:hover{
+	color: #d6d20a;
+	font-weight: bold;
+}
+
+/* Project*/
+#project{
+	color: #ffffff;
+	background-color: #00FFFF;
+	border: #e8491d 2px solid;
+	padding: 20px;
+	font-size: 18px;
+} 
+
+#project ul{
+	list-style-type:none; 
+}
+
+#project .tuna{
+	float: left;
+	padding: 10px;
+	text-align: center;
+	margin-left: 50px;
+}
+  
+#project .tuna:hover{
+	color: #e8491d;
+	font-weight: bold;
+} 
+
+#project .tuna #game{
+	border: #e8491d 1px solid;
+	padding:8px;
+	background-color: #326d68;
+}
+
+
+#project .tuna #web{
+	border: #e8491d 1px solid;
+	padding:8px;
+	background-color: #326d68;
+}
+
+
+#project .tuna #base{
+	border: #e8491d 1px solid;
+	padding:8px;
+	background-color: #326d68;
+}
+
+/* Id project class more*/
+#project .zuze{
+	float: left;
+	padding: 10px;
+	text-align: center;
+        margin-left: 50px;
+}
+
+#project  h1{
+	text-align: center;
+	color ;#ffffff;
+	text-transform: uppercase;
+
+  
+}
+
+ #project .zuze:hover{
+	color: #e8491d;
+	font-weight: bold;
+}  
+
+#project .zuze #other{
+	border: #e8491d 1px solid;
+	padding:10px;
+	background-color: #326d68;
+}
+
+
+#project .zuze #this{
+	border: #e8491d 1px solid;
+	padding:10px;
+	background-color: #326d68;
+}
+
+
+#project .zuze #last{
+	border: #e8491d 1px solid;
+	padding:10px;
+	background-color: #326d68;
+}
+
+/*Work Experience*/
+#work{
+	padding: 20px;
+	color: #ffffff;
+        background-color: #C0C0C0;
+	border: #e8491d 2px solid;
+	font-size: 18px;
+
+} 
+
+#work .special:hover{
+	color: #e03b00;
+	font-weight: bold;
+}  
+
+#work h2{
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color:#000080; 
+}
+
+#work .special{
+        float: left; 
+	padding: 10px;
+	text-align: center;
+	margin-left: 60px;
+}
+
+#work .special #bank{
+	border: #e8491d 1px solid;
+	padding: 10px;
+	background-color: RGB(0,0,0);
+}
+
+#work .special #aim{
+	border: #e8491d 1px solid;
+	padding: 10px;
+	background-color:  RGB(0,0,0);
+}
+
+#work .special #air{
+        border: #e8491d 1px solid;
+	padding: 10px;
+	background-color:  RGB(0,0,0);
+}
+/*responsiveness*/
+
+@media screen and (max-width: 600px){
+   p{
+      font-size:1.25rem;
+   }
+
+}
+@media screen and (max-width: 400px){
+    header li {
+      font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 320px){
+.main{
+width: 100%;
+padding:0px;
+}
+#project .tuna{
+width: 100%;
+padding: 0px; 
+}
+}
+ 
+
+
+
+
